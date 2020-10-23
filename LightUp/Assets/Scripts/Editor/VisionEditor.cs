@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor (typeof(Enemy))]
+[CustomEditor (typeof(Vision))]
 public class VisionEditor : Editor
 {
     private void OnSceneGUI()
     {
-        Enemy vision = (Enemy)target;
+        Vision vision = (Vision)target;
         Handles.color = Color.white;
         Handles.DrawWireArc(vision.transform.position, Vector3.up, Vector3.forward, 360, vision.viewRadius);
         Vector3 viewAngleA = vision.DirFromAngle(-vision.viewAngle / 2, false);
