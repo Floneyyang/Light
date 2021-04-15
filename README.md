@@ -14,9 +14,9 @@ Light is a 2.5D puzzle-platformer maze game that controls a blue light bulb to f
 
 ### Engineering:
 - Inheritance/Polymorphism based classes for input handler and command with decoupling design principle
-- Mesh Generation using ray casting with 3D math-based edge detection. This mesh generation technique is based on @Sebastian Lague’s tutorial on the field of view visualisation. 
+- Mesh Generation using ray casting with 3D math-based edge detection. This mesh generation technique is based on @Sebastian Lague’s tutorial on the [field of view visualisation](https://github.com/SebLague/Field-of-View). 
 - Ray casting enemy detection system
-- Enemy pathfinding: I used the NavMeshAgent AI system for enemy auto pathfinding.
+- Enemy pathfinding: I used the [NavMeshAgent](https://docs.unity3d.com/ScriptReference/AI.NavMeshAgent.html) AI system for enemy auto pathfinding.
 - Enemy state logic: enemies have three states: 1) patrol 2) alert 3) attack
 
 ### Links: 
