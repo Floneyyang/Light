@@ -1,5 +1,9 @@
 # Light
-## Overview
+![GitHub](https://img.shields.io/github/license/Floneyyang/light)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Ffloney.itch.io%2Flight)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Floneyyang/Light)
+### Overview
+![](/light1.gif)
 Light is a 2.5D puzzle-platformer maze game that controls a blue light bulb to find the key in a dark maze while avoiding enemies.
 
 ### Design:
@@ -15,5 +19,7 @@ Light is a 2.5D puzzle-platformer maze game that controls a blue light bulb to f
 - Enemy pathfinding: I used the NavMeshAgent AI system for enemy auto pathfinding.
 - Enemy state logic: enemies have three states: 1) patrol 2) alert 3) attack
 
-### Links:
-- [Web Build](https://floney.itch.io/light)
+### Links: 
+<img alt="Itch.io" src="https://img.shields.io/badge/Itch%20-%23FF0B34.svg?&style=for-the-badge&logo=Itch.io&logoColor=white"/> [Web Build](https://floney.itch.io/light)
+
+![](/light2.gif)
